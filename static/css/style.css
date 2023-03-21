@@ -19,3 +19,24 @@ body {
     width: 100%;
     height: auto;
 }
+
+.title-banner {
+    height: 36px;
+    background-color: #fafafa;
+    border-top: 1px solid #e6ecf0;
+    border-bottom: 1px solid #e6ecf0;
+    line-height: 0px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.instructions-container {
+    text-align: center;
+    font-family: Montserrat;
+    width: 70%;
+    margin-left: 15%;
+}
