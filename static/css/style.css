@@ -131,3 +131,16 @@ label {
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .title-banner {
+        height: auto;
+        background-color: #fafafa;
+        border-top: 1px solid #e6ecf0;
+        border-bottom: 1px solid #e6ecf0;
+        line-height: 20px;
+        font-weight: 400;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+}
