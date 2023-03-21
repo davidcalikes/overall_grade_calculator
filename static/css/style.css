@@ -58,6 +58,8 @@ select {
     width: 140px;
     height: 30px;
     text-align: center;
+    background-color: #e6ecf0;
+    border: solid 1px;
 }
 
 label {
@@ -92,4 +94,27 @@ label {
 .calculate-button:hover {
     color: #445261;
     background-color: #e6ecf0;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.result-heading {
+    font-family: Montserrat;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#final-grade {
+    font-family: Montserrat;
+    color: chocolate;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.result-text {
+    font-family: Montserrat;
+    width: 70%;
+    margin-left: 15%;
 }
