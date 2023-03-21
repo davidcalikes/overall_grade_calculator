@@ -117,21 +117,24 @@ label {
     font-family: Montserrat;
     width: 70%;
     margin-left: 15%;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #fafafa;
+    border-top: 1px solid #e6ecf0
 }
 
 footer i {
     color:#42526e;
-    font-size: larger;
+    font-size: large;
 }
 
 footer p {
     font-family: Helvetica, sans-serif;
     color: #42526e;
     margin: 0;
-}
-
-footer span {
-    margin-left: 0.5rem;
 }
 
 .copyright {
@@ -144,6 +147,9 @@ footer span {
     flex-direction: row;
     justify-content: center;
     padding-top: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {
