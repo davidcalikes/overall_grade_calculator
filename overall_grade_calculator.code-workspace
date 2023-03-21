@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "overall_grade_calculator",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ci_grade_calculator"
+	}
+}

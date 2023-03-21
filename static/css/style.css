@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+}
+
+.top-nav {
+    text-align: center;
+    width: 110px;
+    margin: 8px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
