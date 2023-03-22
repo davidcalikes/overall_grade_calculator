@@ -152,6 +152,9 @@ footer {
     background-color: #42526e;
     border-top: 1px solid #e6ecf0;
     padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
 }
 
@@ -164,6 +167,7 @@ footer p {
     font-family: Helvetica, sans-serif;
     color: #e6ecf0;
     margin: 0;
+    font-size: smaller;
 }
 
 .footer-window {
@@ -171,7 +175,6 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
 }
