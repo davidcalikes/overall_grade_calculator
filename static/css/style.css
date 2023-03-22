@@ -160,7 +160,7 @@ footer {
 
 footer i {
     color: #e6ecf0;
-    font-size: large;
+    font-size: medium;
 }
 
 footer p {
@@ -200,7 +200,11 @@ footer p {
         border-bottom: 1px solid #e6ecf0;
         line-height: 20px;
         font-weight: 400;
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        font-size: smaller;
+    }
+    .instructions-heading {
+        font-size: medium;
     }
 }
