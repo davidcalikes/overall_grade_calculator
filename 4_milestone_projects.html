@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/b13bafb209.js" crossorigin="anonymous"></script>
+    
+    <title>Grade Calculator | Code Institute</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="top-nav">
+            <img class="logo" src="media/CI_LOGO.png" alt="Code Institute Logo">
+        </div>
+    </div>
+
+    <div class="title-banner">
+        <h3 class="banner-title">Full Stack Software Development Diploma: Overall Grade Calculator</h3>
+    </div>
+
+    <div class="instructions-container">
+
+    <h3 class="instructions-heading">Instructions:</h3>
+
+    <p class="instructions-text">This helpful tool illustrates how each of the grades you are awarded as you progress through the course contributes
+        to your overall grade upon completion. 
+    </p>
+
+    <hr>
+
+    <div>
+        <h4>Select an option for each project and press the 'Calculate' button below.</h4>
+    </div>
+</div>
+
+<div class="grade-selectors">
+    <div class="project-selector">
+        <label for="#gradeOne">Portfolio Project 1</label>
+        <select name="Project One" id="gradeOne">
+            <option value="Pass">Pass</option>
+            <option value="Merit">Merit</option>
+            <option value="Distinction">Distinction</option>
+        </select>
+    </div>
+
+    <div class="project-selector">
+        <label for="#gradeOne">Portfolio Project 2</label>
+        <select name="Project Two" id="gradeTwo">
+            <option value="Pass">Pass</option>
+            <option value="Merit">Merit</option>
+            <option value="Distinction">Distinction</option>
+        </select>
+    </div>
+
+    <div class="project-selector">
+        <label for="#gradeOne">Portfolio Project 3</label>
+        <select name="Project Three" id="gradeThree">
+            <option value="Pass">Pass</option>
+            <option value="Merit">Merit</option>
+            <option value="Distinction">Distinction</option>
+        </select>
+    </div>
+
+    <div class="project-selector">
+        <label for="#gradeOne">Portfolio Project 4</label>
+        <select name="Project Four" id="gradeFour">
+            <option value="Pass">Pass</option>
+            <option value="Merit">Merit</option>
+            <option value="Distinction">Distinction</option>
+        </select>
+    </div>
+
+    <div class="project-selector">
+        <label for="#gradeOne">Portfolio Project 5</label>
+        <select name="Project Five" id="gradeFive">
+            <option value="Pass">Pass</option>
+            <option value="Merit">Merit</option>
+            <option value="Distinction">Distinction</option>
+        </select>
+    </div>
+</div>
+
+<div class="calculate-container">
+    <button class="calculate-button" onclick="calculateOverallGrade()">Calculate</button>
+</div>
+
+<div class="main-text">
+    <h4 class="result-heading">The above grades will result in an overall <span id="final-grade">Pass</span> grade for the course.
+    </h4>
+
+    <p class="result-text">Please remember, your final grade is not as important as the skills you will have gained 
+        and will continue to develop throughout your coding journey. </p>
+</div>
+
+<div class="calculate-container">
+    <a href="https://learn.codeinstitute.net/dashboard"><div class="return-button"> ← Return to LMS</div></a>
+</div>
+
+<footer>
+    <div class="footer-window">
+        <p>&#169; Code Institute 2023 | Developed by David Calikes <a target="_blank" title="Link to David Calikes' Github" href="https://github.com/davidcalikes/overall_grade_calculator"><i class="fa-brands fa-github"></i></a>
+            <span> </span>
+            <a target="_blank" title="Link to David Calikes' linkedin profile" href="https://www.linkedin.com/in/david-calikes-8b360b46/?originalSubdomain=ie"><i class="fa-brands fa-linkedin"></i></a> 
+            </p>
+    </div>
+</footer>
+
+<!-- Grade Calculator Script -->
+<script src="static/js/script.js"></script>
+
+</body>
+</html>

@@ -18,86 +18,52 @@
     </div>
 
     <div class="title-banner">
-        <h3 class="banner-title">Full Stack Software Development Diploma: Overall Grade Calculator</h3>
+        <h3 class="banner-title">Overall Grade Calculator</h3>
     </div>
 
     <div class="instructions-container">
 
-    <h3 class="instructions-heading">Instructions:</h3>
+    <h3 class="instructions-heading">Choose Your Course</h3>
 
-    <p class="instructions-text">This helpful tool illustrates how each of the grades you are awarded as you progress through the course contributes
-        to your overall grade upon completion. 
+    <p class="instructions-text">Welcome! Follow the instructions below to calculate your overall grade!
     </p>
 
     <hr>
 
     <div>
-        <h4>Select an option for each project and press the 'Calculate' button below.</h4>
+        <h4>Select your course from the options below:</h4>
+    </div>
+    <div>
+        <p>The way your grade is calculated depends on the course you are enrolled on.</p>
+        <p>You can find the title of your course on your LMS dashboard</p>
     </div>
 </div>
 
-<div class="grade-selectors">
-    <div class="project-selector">
-        <label for="#gradeOne">Portfolio Project 1</label>
-        <select name="Project One" id="gradeOne">
-            <option value="Pass">Pass</option>
-            <option value="Merit">Merit</option>
-            <option value="Distinction">Distinction</option>
-        </select>
-    </div>
 
-    <div class="project-selector">
-        <label for="#gradeOne">Portfolio Project 2</label>
-        <select name="Project Two" id="gradeTwo">
-            <option value="Pass">Pass</option>
-            <option value="Merit">Merit</option>
-            <option value="Distinction">Distinction</option>
-        </select>
-    </div>
-
-    <div class="project-selector">
-        <label for="#gradeOne">Portfolio Project 3</label>
-        <select name="Project Three" id="gradeThree">
-            <option value="Pass">Pass</option>
-            <option value="Merit">Merit</option>
-            <option value="Distinction">Distinction</option>
-        </select>
-    </div>
-
-    <div class="project-selector">
-        <label for="#gradeOne">Portfolio Project 4</label>
-        <select name="Project Four" id="gradeFour">
-            <option value="Pass">Pass</option>
-            <option value="Merit">Merit</option>
-            <option value="Distinction">Distinction</option>
-        </select>
-    </div>
-
-    <div class="project-selector">
-        <label for="#gradeOne">Portfolio Project 5</label>
-        <select name="Project Five" id="gradeFive">
-            <option value="Pass">Pass</option>
-            <option value="Merit">Merit</option>
-            <option value="Distinction">Distinction</option>
-        </select>
-    </div>
-</div>
 
 <div class="calculate-container">
-    <button class="calculate-button" onclick="calculateOverallGrade()">Calculate</button>
+    <p>Level 5 Diploma in 'Web Application Development' (Gateway)</p>
+    <a href="4_milestone_projects.html" class="calculate-button">4 'Milestone' Projects</a>
 </div>
-
-<div class="main-text">
-    <h4 class="result-heading">The above grades will result in an overall <span id="final-grade">Pass</span> grade for the course.
-    </h4>
-
-    <p class="result-text">Please remember, your final grade is not as important as the skills you will have gained 
-        and will continue to develop throughout your coding journey. </p>
-</div>
-
 <div class="calculate-container">
+    <p>Diploma in 'Full Stack Software Developmnent'</p>
+    <a href="5_portfolio_projects.html" class="calculate-button">5 'Portfolio' Projects</a>
+</div>
+
+<div class="instructions-container warning-container">
+
+    <div>
+        <i class="fa-solid fa-triangle-exclamation fa-fade icon-style"></i>
+        <p class="instructions-text">Before you use this tool, please be aware that you must be absolutely sure of the correct title of your course.</p>
+        <p class="instructions-text">If you choose a course to which you have not been assigned, the calculator will not provide you with accurate information!</p>
+    </div>
+</div>
+
+<div class="instructions-container warning-container">
     <a href="https://learn.codeinstitute.net/dashboard"><div class="return-button"> ← Return to LMS</div></a>
 </div>
+
+
 
 <footer>
     <div class="footer-window">
@@ -107,9 +73,6 @@
             </p>
     </div>
 </footer>
-
-<!-- Grade Calculator Script -->
-<script src="static/js/script.js"></script>
 
 </body>
 </html>

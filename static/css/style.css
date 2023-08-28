@@ -22,7 +22,7 @@ body {
 
 .title-banner {
     height: 36px;
-    background-color: #f20c0c;
+    background-color: #fafafa;
     border-top: 1px solid #e6ecf0;
     border-bottom: 1px solid #e6ecf0;
     line-height: 0px;
@@ -89,6 +89,7 @@ label {
     color: #e6ecf0;
     background-color: #445261;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .calculate-button:hover {
@@ -118,6 +119,15 @@ label {
     width: 70%;
     margin-left: 15%;
     font-weight: bold;
+}
+
+.warning-container {
+    margin-bottom: 2rem;
+}
+
+.icon-style {
+   font-size: xx-large;
+    color: #42526e;
 }
 
 .return-button {
