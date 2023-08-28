@@ -97,6 +97,29 @@ label {
     background-color: #e6ecf0;
 }
 
+.reset-icon {
+    color: #42526e;
+    font-size: x-large;
+    margin-top: 1rem;
+}
+
+.reset-icon:hover {
+    color:#d2691e;
+    cursor: pointer;
+}
+
+.reset-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.reset-text-container {
+    margin-top: 0.5rem;
+    font-family: Montserrat;
+    font-weight:600;
+}
+
 .main-text {
     text-align: center;
 }
