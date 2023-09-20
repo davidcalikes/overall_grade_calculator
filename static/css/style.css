@@ -180,6 +180,10 @@ label {
     background-color: #445261;
 }
 
+.icon-style {
+    color: red;
+}
+
 footer {
     margin-top: 2rem;
     background-color: #42526e;
